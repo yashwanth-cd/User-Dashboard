@@ -1,0 +1,46 @@
+.user-info-card {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  max-width: 500px;
+  height: 200px;
+}
+
+.user-details h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.user-details p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.review {
+  display: block;
+}
+
+.map-icon {
+  position: absolute;
+  right: 15px;
+}
+
+.account-number {
+  color: #0066cc;
+}
+
+.past-review {
+  background-color: #2a93e3a9;
+  padding: 3px 5px;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #333;
+}

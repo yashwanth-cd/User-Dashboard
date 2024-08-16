@@ -1,0 +1,46 @@
+.customer-details {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.customer-header {
+  margin-bottom: 15px;
+}
+
+.customer-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.customer-header p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555555;
+}
+
+.metrics {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.metric-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px 0;
+  flex-basis: 30%;
+}
+
+p {
+  display: inline;
+}

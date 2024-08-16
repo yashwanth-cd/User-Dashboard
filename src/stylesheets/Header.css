@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.search .search-bar {
+  width: 200px;
+  padding: 5px;
+  border-radius: 20px;
+  position: relative;
+}
+.search .search-icon {
+  position: absolute;
+  right: 1160px;
+  z-index: 100;
+}
+
+.header .icons {
+  display: flex;
+  margin-top: 1px;
+  align-items: center;
+}
+
+.header .icon {
+  padding-right: 10px;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

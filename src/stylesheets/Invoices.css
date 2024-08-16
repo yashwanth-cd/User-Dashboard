@@ -1,0 +1,132 @@
+.invoices {
+  padding: 0px 20px 20px 0px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.invoice-main-heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2a94e3;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+.invoice-main-heading p {
+  margin: 0;
+}
+
+.invoice-tab {
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #e6f4ff;
+  font-weight: bold;
+  border: none;
+}
+
+.invoice-tab.active {
+  background-color: #2a94e3;
+  color: #ffffff;
+}
+
+.invoice-tab:hover {
+  background-color: #1a6fb3;
+  color: #ffffff;
+}
+
+.invoice-details {
+  padding: 0px 20px;
+}
+
+.invoice-details table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: #e6f4ff;
+}
+
+.top-invoice-headers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.template-1,
+.template-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.invoice-column {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0.3rem;
+}
+
+.invoice-column p {
+  font-weight: 500;
+}
+
+.invoice-column .col {
+  display: flex;
+  align-items: center;
+}
+
+.top-headers {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.top-headers p {
+  padding: 10px;
+  color: blue;
+  font-weight: 500;
+}
+
+.top-headers .active {
+  border-bottom: solid 3px blue;
+}
+
+.top-header-icon {
+  margin-top: 3px;
+}
+
+.invoice-buttons {
+  display: flex;
+  align-items: end;
+  margin-left: 20px;
+}
+
+.invoice-buttons span {
+  padding: 6px;
+  color: white;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.invoice-buttons .open-invoice {
+  background-color: rgb(240, 73, 73);
+}
+.invoice-buttons .close-invoice {
+  background-color: rgb(24, 208, 24);
+}
+
+.invoice-details th,
+.invoice-details td {
+  padding: 10px;
+  text-align: left;
+}
+
+.invoice-details tbody tr:hover {
+  background-color: #f0f0f0;
+}
